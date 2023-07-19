@@ -1,0 +1,25 @@
+﻿@model ApplicationsViewModel
+
+@{
+    ViewData["Title"] = "Applications";
+}
+
+<h2>Applications</h2>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>Job Title</th>
+            <th>Location</th>
+            <th>Applications</th>
+        </tr>
+    </thead>
+    @foreach (var applicationCount in Model.ApplicationCounts)
+    {
+        <tr>
+            <td><a asp-controller="Application" asp-action="JobApplications" asp-route-id="@applicationCount.Job.Id">@applicationCount.Job.Title</a></td>
+            <td>@applicationCount.Job.Location</td>
+            <td>@applicationCount.ApplicationCount</td>
+        </tr>
+    }
+</table>

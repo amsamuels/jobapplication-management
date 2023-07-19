@@ -1,0 +1,19 @@
+﻿@model JobApplicationsViewModel
+
+@{
+    ViewData["Title"] = "JobApplications";
+}
+
+<h2>Applications for: @Model.Job.Title</h2>
+
+<ul>
+    @foreach (var application in Model.Applications)
+    {
+    <li>
+    <b>@(application.Date.ToShortDateString()): </b>
+        <a asp-controller="Application" asp-action="Application" asp-route-id="@application.Id">
+            @application.ApplicantName
+        </a>
+    </li>
+    }
+</ul>

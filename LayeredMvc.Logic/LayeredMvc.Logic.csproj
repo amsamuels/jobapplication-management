@@ -1,0 +1,12 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netstandard2.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\LayeredMvc.Common\LayeredMvc.Common.csproj" />
+    <ProjectReference Include="..\LayeredMvc.Data\LayeredMvc.Data.csproj" />
+  </ItemGroup>
+
+</Project>

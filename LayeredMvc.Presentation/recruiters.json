@@ -1,0 +1,23 @@
+[
+  {
+    "Id": "3001",
+    "CompanyName": "Jobs R Us",
+    "Address": "123 Oxford Road",
+    "PhoneNumber": "0161 7157364",
+    "IsVisible": true
+  },
+  {
+    "Id": "3002",
+    "CompanyName": "Recruitment Specialists",
+    "Address": "12 Stockport Street",
+    "PhoneNumber": "0161 7151123",
+    "IsVisible": false
+  },
+  {
+    "Id": "3003",
+    "CompanyName": "Manchester Jobs",
+    "Address": "22 High Street",
+    "PhoneNumber": "0161 7159849",
+    "IsVisible": true
+  }
+]

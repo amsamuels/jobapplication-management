@@ -1,0 +1,14 @@
+﻿@model JobsViewModel
+
+@{
+    ViewData["Title"] = "Jobs";
+}
+
+<h2>Jobs</h2>
+
+<ul>
+    @foreach (var job in Model.Jobs)
+    {
+        <li><a asp-controller="Job" asp-action="Job" asp-route-id="@job.Id">@job.Title, @job.Location, £@job.Salary, Applications: @job.Applications</a></li>
+    }
+</ul>

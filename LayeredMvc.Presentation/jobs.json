@@ -1,0 +1,66 @@
+[
+    {
+        "Id": "1000",
+        "Title": "Junior developer",
+        "Description": "Junior development role, degree required but no experience.",
+        "Location": "Manchester",
+        "Salary": 24000,
+        "Applications": 0
+    },
+    {
+        "Id": "1001",
+        "Title": "Senior Developer",
+        "Description": "Senior developer full-stack developer required, experience leading projects required.",
+        "Location": "Manchester",
+        "Salary": 30000,
+        "Applications": 0
+    },
+    {
+        "Id": "1002",
+        "Title": "Project Manager",
+        "Description": "Experienced project manager required.",
+        "Location": "Stockport",
+        "Salary": 40000,
+        "Applications": 0
+    },
+    {
+        "Id": "1003",
+        "Title": "Software Tester",
+        "Description": "Junior tester required to test mobile apps.",
+        "Location": "Salford",
+        "Salary": 24000,
+        "Applications": 0
+    },
+    {
+        "Id": "1004",
+        "Title": "Junior dev",
+        "Description": "Duis tincidunt tellus vel mauris blandit, ac posuere neque egestas.",
+        "Location": "Manchester",
+        "Salary": 22000,
+        "Applications": 0
+    },
+    {
+        "Id": "1005",
+        "Title": "Java Developer",
+        "Description": "Nunc in finibus purus.",
+        "Location": "Manchester",
+        "Salary": 30000,
+        "Applications": 0
+    },
+    {
+        "Id": "1006",
+        "Title": "Senior .net Developer",
+        "Description": "Proin suscipit erat leo, at cursus est lacinia a.",
+        "Location": "Stockport",
+        "Salary": 38000,
+        "Applications": 0
+    },
+    {
+        "Id": "1007",
+        "Title": "Automated Test Engineer",
+        "Description": "Curabitur pharetra quam urna, nec euismod magna porttitor et. Aliquam viverra, est eget consectetur consequat, metus sapien imperdiet justo, vel consequat velit lectus non purus.",
+        "Location": "Salford",
+        "Salary": 29000,
+        "Applications": 0
+    }
+]

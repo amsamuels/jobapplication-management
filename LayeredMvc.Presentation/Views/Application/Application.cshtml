@@ -1,0 +1,16 @@
+﻿@model ApplicationViewModel
+
+@{
+    ViewData["Title"] = "Application";
+}
+
+<h2>Application: @Model.Application.ApplicantName</h2>
+
+<p>Application for @Model.Job.Title, @Model.Job.Location, £@Model.Job.Salary</p>
+
+<p><b>Application Date:</b> @Model.Application.Date.ToShortDateString()</p>
+
+<h3>Covering Letter</h3>
+<p>
+    @Model.Application.CoveringLetter
+</p>

@@ -1,0 +1,15 @@
+﻿@model JobViewModel
+
+@{
+    ViewData["Title"] = "Job";
+}
+
+<h2>@Model.Job.Title</h2>
+
+<p>@Model.Job.Description</p>
+
+<ul>
+    <li><b>Location:</b> @Model.Job.Location</li>
+    <li><b>Salary:</b> £@Model.Job.Salary</li>
+    <li><b>Applications:</b> @Model.Job.Applications</li>
+</ul>
